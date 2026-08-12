@@ -1,0 +1,60 @@
+box{
+    background-color:crimson
+    width: 200px;
+    height:200px;
+    color: #fff
+    margin-bottom: 10px;
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: tomato;
+    padding: 3rem;
+}
+.container{
+    background-color:brown;
+    padding: 2rem;
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+figure img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.title{
+    margin: 1rem 0;
+    font-style: italic;
+    &:hover{
+        color:bisque;
+    }
+    &::after{
+        content: "🍪o((>ω< ))o🍪";
+    }
+}
+title:hover{
+    color:khaki
+}
+
+.paragrahp{
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    @ -64,6 + 75,12 @
+    line-height: 1.6;
+}
+
+ol li::marker{
+    color:burlywood;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
